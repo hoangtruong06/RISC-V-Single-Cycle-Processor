@@ -33,6 +33,7 @@ This table describes how data propagates through the major architectural blocks 
 | **Data Memory** | `W_P` | `dmem_rdata` | **MUX_B** | Data loaded from memory. |
 | **MUX_B** | `W_Q` | `write_back_data` | **Register File** | Selects `pc+4`, `alu_result`, or `dmem_rdata` to write back. |
 | **MUX_C** | `W_R` | `pc_next` | **PC Register** | Updates PC: `pc+4` or Branch/Jump target. |
+<img width="1148" height="542" alt="image" src="https://github.com/user-attachments/assets/b401da2c-23e3-41f9-a145-893480e5eb32" />
 
 ### 1.2 — Signal Reference Table
 
